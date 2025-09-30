@@ -37,7 +37,6 @@ app.put("/user/:id", (req, res) => {
 
 // DELETE
 app.delete("/user/:id", (req, res) => {
-  const { id } = req.params;
   res.status(204).send();
 });
 
